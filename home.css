@@ -1,0 +1,87 @@
+aside {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  position: fixed;
+  width: 300px;
+  /* background-color: rgb(247, 241, 241); */
+  height: 100vh;
+}
+aside nav {
+  margin-top: 30px;
+  padding: 5px;
+  background-color: rgb(32, 170, 250);
+  border-radius: 20px 0px 0px 20px;
+}
+aside nav img {
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+
+  border-radius: 50%;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.logo {
+  width: 300px;
+  height: 65px;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+main {
+  margin-left: 300px;
+  padding: 30px;
+  width: calc(100%-300px);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.heading_section {
+  margin-top: 65px;
+  margin-bottom: 70px;
+  border-radius: 10px;
+  padding: 5px;
+  padding-top: 30px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.heading_section h2 {
+  align-items: center;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+form .div1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+form .div1 div {
+  width: 33.33%;
+  padding: 20px;
+}
+form .div1 input {
+  padding-left: 5px;
+  width: 100%;
+  height: 100%;
+  border-radius: 5;
+}
+form .div1 select {
+  padding-left: 10px;
+  width: 100%;
+  height: 100%;
+}
+form .div2 {
+  padding: 20px;
+}
+form .div2 input {
+  width: 200px;
+  height: 40px;
+}
+.form-section {
+  border-radius: 10px;
+  padding: 4px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}

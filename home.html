@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <aside>
+      <div class="logo"><img src="images/kv-logo.png" alt="loading" /></div>
+      <nav>
+        <div style="display: inline-flex">
+          <img src="images/icon.svg" alt="" />
+          <div>Employee List</div>
+        </div>
+      </nav>
+    </aside>
+
+    <main>
+      <section class="heading_section">
+        <h2>Create Employee</h2>
+      </section>
+
+      <section class="form-section">
+        <form action="">
+          <div class="div1">
+            <div>
+              <label for="">Employee Name</label>
+              <input type="text" placeholder="Employee Name" />
+            </div>
+
+            <div>
+              <label for="">Employee id</label>
+              <input type="number" placeholder="Employee id" />
+            </div>
+
+            <div>
+              <label for="">joining date</label>
+              <input type="date" placeholder="joining date" />
+            </div>
+
+            <div>
+              <label for="">Role</label>
+              <select name="Choose role" id="">
+                <option value="" disabled hidden>choose role</option>
+                <option value="">developer</option>
+                <option value="">tester</option>
+                <option value="">hr</option>
+              </select>
+            </div>
+
+            <div class="div2">
+              <label for="">Status</label>
+              <select name="Choose role" id="">
+                <option value="" disabled hidden>status</option>
+                <option value="">working</option>
+                <option value="">not working</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="">Experience</label>
+              <input type="number" placeholder="Experience" />
+            </div>
+
+            <div>
+              <label for="">Address</label>
+              <input type="address" placeholder="address" />
+            </div>
+          </div>
+
+          <div class="div2">
+            <div>
+              <input
+                type="button"
+                style="background-color: rgb(0, 195, 255)"
+                value="Create"
+              />
+              <input type="button" value="cancel" />
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
